@@ -12,15 +12,77 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: flex-end;
     z-index: 1;
+}
+
+#leftLogo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.upperBtn2 {
+    border-radius: 10em;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+#logo {
+    width: 100px;
+    margin-left: 15px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: flex-start;
+    filter: invert(100%);
 }
 
 #icon {
     display: flex;
+    margin-left: auto;
+    justify-content: flex-end;
     gap: 10px;
     margin-right: 10px;
 }
+
+#btnSet {
+    background-color: white;
+    opacity: 0.5;
+    position: fixed;
+    top: 50px;
+    right: 0;
+    padding: 40px 20px;
+    margin: 20px;
+    border-radius: 1em;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    z-index: 1;
+ }
+
+.imgB {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.goBtn {
+    padding: 10px 15px;
+    font-size: 20px;
+    width: 150px;
+    border-radius: 0.5em;
+    /* border: 2px solid; */
+ }
+
+.goBtn:hover {
+    background-color: rgb(255, 255, 255);
+ }
+
+ .btnImg {
+    width: 32px;
+    height: 32px;
+ }
 
 .upperBtn {
     border-radius: 10em;
