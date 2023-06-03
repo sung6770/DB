@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MainPage1</title>
+    <title>MainPage2</title>
     <link rel="stylesheet" href="MainPage.css" />
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Nanum+Brush+Script&display=swap" rel="stylesheet">
@@ -13,19 +13,66 @@
 
 <body>
     <div id="upper">
-        <div id="leftLogo">
+        <div id="btnSet">
+            <button class="goBtn">
+              <div class="imgB">
+                <img
+                  class="btnImg"
+                  src="https://cdn-icons-png.flaticon.com/128/7776/7776763.png"
+                />
+                <b>게시판</b>
+              </div>
+            </button>
+            <button class="goBtn">
+              <div class="imgB">
+                <img
+                  class="btnImg"
+                  src="https://cdn-icons-png.flaticon.com/128/7744/7744130.png"
+                />
+                <b>이벤트</b>
+              </div>
+            </button>
+            <button class="goBtn">
+              <div class="imgB">
+                <img
+                  class="btnImg"
+                  src="https://cdn-icons-png.flaticon.com/128/7126/7126749.png"
+                />
+                <b>헬스장</b>
+              </div>
+            </button>
+          </div>
+          <div id="leftLogo">
             <div>
-                <button class="upperBtn2" type="button">
-                    <img id="logo" src="Logo.png" />
-                </button>
+              <button class="upperBtn2" type="button">
+                <img id="logo" src="Logo.png" />
+              </button>
             </div>
-        </div>
-        <div id="userBtn">
-            <a href="#" id="loginBtn">log in</a>
-            <a href="#" id="loginBtn">sign up</a>
-        </div>
+          </div>
+          <div id="icon">
+            <div>
+              <button class="upperBtn" type="button">
+                <img id="i4" src="https://cdn-icons-png.flaticon.com/128/69/69524.png" />
+              </button>
+            </div>
+            <div>
+              <button class="upperBtn" type="button">
+                <img id="i1" src="https://cdn-icons-png.flaticon.com/128/7747/7747974.png" />
+              </button>
+            </div>
+            <div>
+              <button class="upperBtn" type="button">
+                <img id="i2" src="https://cdn-icons-png.flaticon.com/128/747/747376.png" />
+              </button>
+            </div>
+            <div>
+              <button class="upperBtn" id="listBtn" type="button">
+                <img id="i3" src="https://cdn-icons-png.flaticon.com/128/1827/1827914.png" />
+              </button>
+            </div>
+          </div>
     </div>
-    <div class="container">
+    <div id="container">
         <div class="mainImg">
             <img id="gymImg" src="https://cdn.pixabay.com/photo/2016/01/08/01/53/gymer-1126999_1280.jpg"/>
         </div>
@@ -40,6 +87,7 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript" src="Toolbar.js"></script>
 </body>
 
 </html>
