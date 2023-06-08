@@ -99,6 +99,11 @@ body {
     filter: brightness(0%) invert(100%);
 }
 
+#i5 {
+    width: 32px;
+    margin-top: 12px;
+}
+
 .upperBtn {
     border-radius: 10em;
     width: 50px;
