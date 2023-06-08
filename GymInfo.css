@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#upper {
+    position: sticky;
+    top: 0;
+    background-color: #2a2a2a;
+    height: 55px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    z-index: 1;
+}
+
+.upperBtn {
+    border-radius: 10em;
+    width: 50px;
+    height: 50px;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    margin-left: 10px
+}
+
+.upperBtn:hover {
+    background-color: rgb(63, 63, 63);
+}
+
+#goBack {
+    width: 36px;
+    margin-top: 10px;
+    filter: brightness(0%) invert(100%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    font-size: 0;
+}
+
+#image {
+    width: 100%;
+}
+
+#gymText {
+    margin-left: 15px;
+}
+
+.name {
+    font-size: 3.5rem;
+    margin-top: 30px;
+}
+
+.location {
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.index {
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: lightsalmon;
+}
+
+.gymInfo {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.price {
+    font-size: 2rem;
+    text-align: center;
+    background-color: lemonchiffon;
+    border-radius: 10em;
+    margin-bottom: 20px;
+}
+
+.machine {
+    font-size: 1.5rem;
+    color: blue;
+}
