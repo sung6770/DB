@@ -441,3 +441,12 @@ a {
     border: 0;
     resize: vertical;
 }
+
+#heart {
+    margin-left: 650px;
+}
+
+
+#i5 {
+    width: 32px;
+}
